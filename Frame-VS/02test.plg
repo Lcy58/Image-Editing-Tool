@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 02test - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP58.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/02test.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\00北方工大\92图像信息处理本科2013\04实验课\01指导书&报告\02Frame\02Frame\BMPEdit.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP58.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP59.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/02test.pdb" /debug /machine:I386 /out:"Debug/02test.exe" /pdbtype:sept 
+".\Debug\02test.obj"
+".\Debug\02testDoc.obj"
+".\Debug\02testView.obj"
+".\Debug\BMPEdit.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\02test.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP59.tmp"
+<h3>Output Window</h3>
+Compiling...
+BMPEdit.cpp
+F:\00北方工大\92图像信息处理本科2013\04实验课\01指导书&报告\02Frame\02Frame\BMPEdit.cpp(97) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+F:\00北方工大\92图像信息处理本科2013\04实验课\01指导书&报告\02Frame\02Frame\BMPEdit.cpp(103) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+F:\00北方工大\92图像信息处理本科2013\04实验课\01指导书&报告\02Frame\02Frame\BMPEdit.cpp(109) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/02test.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\02test.sbr" ".\Debug\02testDoc.sbr" ".\Debug\02testView.sbr" ".\Debug\BMPEdit.sbr" ".\Debug\MainFrm.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+02test.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
